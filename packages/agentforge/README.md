@@ -48,8 +48,3 @@ export default defineAgent({
 | `PORT` | | `3000` | Listen port |
 | `PLATFORM_SECRET` | | off | Auth: validates `Authorization: Bearer` |
 | `LOG_LEVEL` | | `info` | Log level |
-
-## Porting to other languages
-
-See [`SPEC.md`](./SPEC.md) — language-agnostic L1 protocol + L2 core pseudocode.
-Rule: copy logic and data (L1+L2), rewrite I/O and syntax (L3+L4).
