@@ -9,7 +9,7 @@ npm create agentforge my-agent
 cd my-agent
 cp .env.example .env   # fill in OPENAI_API_KEY + MODEL
 npm install
-npm run dev            # opens http://localhost:3000/
+npm run dev            # opens http://localhost:4242/
 ```
 
 ## defineAgent example
@@ -45,6 +45,6 @@ export default defineAgent({
 | `OPENAI_API_KEY` | ✅ | — | LLM key |
 | `MODEL` | ✅ | — | Model name (e.g. `gpt-4o-mini`) |
 | `OPENAI_BASE_URL` | | `https://api.openai.com/v1` | Swap provider / self-hosted model |
-| `PORT` | | `3000` | Listen port |
+| `PORT` | | `4242` | Listen port |
 | `PLATFORM_SECRET` | | off | Auth: validates `Authorization: Bearer` |
 | `LOG_LEVEL` | | `info` | Log level |

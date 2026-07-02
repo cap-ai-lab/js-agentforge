@@ -5,7 +5,7 @@ test('loadConfig applies defaults', () => {
   const c = loadConfig({ OPENAI_API_KEY: 'k', MODEL: 'm' })
   expect(c).toEqual({
     apiKey: 'k', model: 'm',
-    baseUrl: 'https://api.openai.com/v1', port: 3000, platformSecret: undefined,
+    baseUrl: 'https://api.openai.com/v1', port: 4242, platformSecret: undefined,
   })
 })
 

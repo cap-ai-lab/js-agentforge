@@ -22,7 +22,7 @@ export function loadConfig(env: Record<string, string | undefined>): Config {
     apiKey: req('OPENAI_API_KEY'),
     model: req('MODEL'),
     baseUrl: env.OPENAI_BASE_URL ?? 'https://api.openai.com/v1',
-    port: env.PORT ? Number(env.PORT) : 3000,
+    port: env.PORT ? Number(env.PORT) : 4242,
     platformSecret: env.PLATFORM_SECRET,
   }
 }

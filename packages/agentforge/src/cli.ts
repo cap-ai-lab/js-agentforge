@@ -11,7 +11,7 @@ start({ dev: cmd === 'dev' })
   .then((app) => {
     if (cmd === 'dev') {
       const addr = app.server.address()
-      const port = typeof addr === 'object' && addr ? addr.port : 3000
+      const port = typeof addr === 'object' && addr ? addr.port : 4242
       console.log(`agentforge dev → http://localhost:${port}/`)
     }
   })
