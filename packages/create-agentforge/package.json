@@ -1,0 +1,9 @@
+{
+  "name": "create-agentforge",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": { "create-agentforge": "./index.js" },
+  "files": ["index.js", "template"],
+  "scripts": { "test": "vitest run" },
+  "devDependencies": { "vitest": "^2.1.0", "@types/node": "^22.0.0" }
+}

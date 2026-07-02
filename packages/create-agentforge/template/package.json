@@ -1,0 +1,10 @@
+{
+  "name": "my-agentlet",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "agentforge dev",
+    "start": "agentforge start"
+  },
+  "dependencies": { "agentforge": "^0.1.0" }
+}
